@@ -26,6 +26,10 @@ body {
 .main {
   flex-grow: 2;
   flex-basis: 0;
+  padding-left: 50px;
+  padding-right: 100px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 #side-image {
@@ -35,7 +39,7 @@ body {
 
 .logo-group {
   position: absolute;
-  top: 50%;
+  top: 35%;
   transform: translate(0, -50%);
   width: 100%;
   font-size: 50px;
@@ -57,4 +61,55 @@ body {
 
 .heading {
   font-size: 30px;
+}
+
+.form-header {
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+
+label,
+input {
+  display: block;
+}
+
+label {
+  font-weight: 700;
+}
+
+div[class^="column"] > div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 80px;
+}
+
+button {
+  font-size: 16px;
+  font-weight: bold;
+
+  color: #ffffff;
+  background-color: #5995da;
+
+  border: none;
+  border-radius: 3px;
+
+  padding: 10px 40px;
+  cursor: pointer;
+
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #76aeed;
+}
+
+button:active {
+  background-color: #407fc7;
 }
