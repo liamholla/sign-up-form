@@ -34,12 +34,13 @@ body {
 
 #side-image {
   height: 100%;
+  width: 100%;
   position: relative;
 }
 
 .logo-group {
   position: absolute;
-  top: 35%;
+  top: 50%;
   transform: translate(0, -50%);
   width: 100%;
   font-size: 50px;
@@ -80,6 +81,14 @@ input {
   display: block;
 }
 
+input:focus {
+  outline: 0px;
+  border-color: #407fc7;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 2px;
+}
+
 label {
   font-weight: 700;
 }
@@ -112,4 +121,8 @@ button:hover {
 
 button:active {
   background-color: #407fc7;
+}
+
+.log-in {
+  padding-top: 20px;
 }
